@@ -1,0 +1,52 @@
+
+.wrapper {
+	margin: 0 auto;
+	max-width: 1600px;
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;	
+}
+
+.movie-list {
+	//padding: 1% 1% 4% 1%;
+	display: grid; 
+	justify-content: center;
+	margin-bottom: 2%;	
+	height: 100%;
+}
+
+@media (max-width: 768px) {
+	.movie-list {	  
+	 
+	}
+ }
+
+.favourite, .watchList {
+	background-color: #f8f9fa;
+	
+ }
+ 
+ .favourite__title, .watchList__title {
+	font-size: 1.9em;
+	padding: 15px;
+	color: #333;	
+	padding-bottom: 5px;
+ }
+ 
+ .favourite__title {
+	color: #333;	/* Цвет для заголовка "Улюблене" */
+ }
+ 
+ .watchList__title {
+	color: #333;	/* Цвет для заголовка "Подивитись" */
+ }
+
+ul {	
+	li {
+		color: #333;
+		padding-bottom: 5px;
+		font-size: 1.2 em;
+	  }
+} 
+ 
